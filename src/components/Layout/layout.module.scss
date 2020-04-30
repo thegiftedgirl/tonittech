@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 1rem;
+    min-height: 100vh;
+    main {
+        flex-grow: 1;
+    }
+}
