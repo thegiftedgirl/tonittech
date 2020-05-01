@@ -9,13 +9,16 @@ export default () => {
             <h1>The Beans</h1>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link activeClassName={styles.navItemActive} to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/about'>About Toni</Link>
+                    <Link activeClassName={styles.navItemActive} to='/about'>About Toni</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <Link activeClassName={styles.navItemActive} to='/contact'>Contact</Link>
+                </li>
+                <li>
+                    <Link activeClassName={styles.navItemActive} to='./resume'>Resume</Link>
                 </li>
             </ul>
         </header>
