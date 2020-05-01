@@ -6,10 +6,10 @@ export default () => {
 return (
     <Layout>
 
-    <h1> My Resume </h1>
-    <a href="https://docdro.id/YbJUAui" target="__blank">
-   download resume
-    </a>
+    <h3> My Resume </h3>
+    
+    <iframe width="100%" height="700" src="https://www.docdroid.net/YbJUAui/toni-horne-full-stack-resume-2-pdf" frameborder="10" allowtransparency allowfullscreen></iframe>
+   
     </Layout>
 )
 }
