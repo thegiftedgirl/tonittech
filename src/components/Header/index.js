@@ -17,12 +17,15 @@ export default () => {
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/contact'>Contact</Link>
                 </li>
+                 <li>
+                    <Link activeClassName={styles.navItemActive} to='/blog'>Blog</Link>
+                </li>
                 <li>
                     <Link activeClassName={styles.navItemActive} to='./resume'>Resume</Link>
                 </li>
                 <li>
-                    <Link activeClassName={styles.navItemActive} to='/blog'>Blog</Link>
-                </li>
+                    <Link activeClassName={styles.navItemActive} to='./project'>Projects</Link>
+                </li>     
             </ul>
         </header>
     )

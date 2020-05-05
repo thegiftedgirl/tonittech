@@ -6,9 +6,9 @@ export default () => {
 return (
     <Layout>
 
-    <h3> My Resume </h3>
+    <h1> Professional Highlights</h1>
     
-    <iframe width="100%" height="700" src="https://www.docdroid.net/YbJUAui/toni-horne-full-stack-resume-2-pdf" frameborder="10" allowtransparency allowfullscreen></iframe>
+    <iframe width="100%" height="700" src="https://www.docdroid.net/YbJUAui/toni-horne-full-stack-resume-2-pdf" frameborder="50" allowtransparency allowfullscreen ></iframe>
    
     </Layout>
 )
