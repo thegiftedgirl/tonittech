@@ -9,6 +9,8 @@ export default () => {
         <Layout>
         <h1>Projects</h1>
 
+        <h2>Git Activity</h2>
+
         </Layout>
     )
 }

@@ -11,5 +11,5 @@ return (
     <iframe width="100%" height="700" src="https://www.docdroid.net/YbJUAui/toni-horne-full-stack-resume-2-pdf" frameborder="50" allowtransparency allowfullscreen ></iframe>
    
     </Layout>
-)
+    )
 }
