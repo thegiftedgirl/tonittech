@@ -6,7 +6,7 @@ import styles from './header.module.scss'
 export default () => {
     return(
         <header className={styles.header}>
-            <h1>Toni Tenneil</h1>
+            <h1>The Dynamic Dev</h1>
             <ul>
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/'>Home</Link>
