@@ -16,7 +16,7 @@ export default (props) => {
                                
                   
             </BackgroundImage>
-            <p>Im a cool cat amongst all these kittens</p>
+            <p>I live at the fusion of fine art and technology. As an art teacher by day I have the opportunity of broadening young minds through multiple artistic forms. I would like to expand upon my creative capabilities through technology by developing software for artists and educators alike. Preferably working in an environment where big ideas are nurtured and innovation is consistently encouraged. </p>
             <Link to="/contact">Contact</Link>
         </Layout>
 
