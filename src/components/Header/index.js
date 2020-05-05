@@ -20,6 +20,9 @@ export default () => {
                 <li>
                     <Link activeClassName={styles.navItemActive} to='./resume'>Resume</Link>
                 </li>
+                <li>
+                    <Link activeClassName={styles.navItemActive} to='/blog'>Blog</Link>
+                </li>
             </ul>
         </header>
     )
