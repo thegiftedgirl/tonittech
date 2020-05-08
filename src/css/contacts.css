@@ -1,0 +1,14 @@
+.icon {
+    max-width: 5%;
+     align-items: center;
+  
+  
+}
+
+li{
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:plum;
+}

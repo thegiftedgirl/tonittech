@@ -35,8 +35,20 @@ module.exports = {
                 token: 'fcdf51c238c30a4a50f1364541d9c6fcdc2972af',
           
         
+              },
+            },
+            {
+              resolve: 'gatsby-remark-video',
+              options: {
+                width: 800,
+                height: 'auto',
+                preload: 'auto',
+                muted: true,
+                autoplay: true,
+                playsinline: true,
+                controls: true,
+                loop: true
+              }
             }
-            }
-          
         ],
       }         

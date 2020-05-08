@@ -3,6 +3,7 @@ import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 
+
 import '../../css/background-image.css'
 import '../../styles/reset.scss'
 import styles from './layout.module.scss'

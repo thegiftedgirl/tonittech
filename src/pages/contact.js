@@ -1,43 +1,43 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import BackgroundImage from 'gatsby-background-image'
+import { Link, graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 
 import githublogo from '../images/githublogo.png'
 import gmaillogo from '../images/gmaillogo.png'
 import linkedinlogo from '../images/linkedinlogo.png'
 import galogo from '../images/galogo.png'
+import  styles from '../css/contacts.css'
+
 
 export default (props) => {
 return (
     <Layout> 
-          <BackgroundImage
-                className="masthead"
-                fluid={props.data.indexImage.childImageSharp.fluid}
-            >
-            
-             <container>       
-                <h1>Contact Me </h1>
+       <h1>Contact Me </h1>
+        <section className={styles.contacts}>       
+                
                 <ul>
-                <img src={gmaillogo} alt="gmaillogo"/>: tonihorne@me.com
-                <li><a href="https://github.com/thegiftedgirl" target="__blank"><img src={githublogo} alt="githublogo"/>GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/tonitenneilhorne/" target="__blank"><img src={linkedinlogo} alt="linkedinlogo"/>linkedin</a></li>
-                <li><a href="https://profiles.generalassemb.ly/profiles/tonitenneil" target="__blank"><img src={galogo} alt="galogo"/>GA Profile</a></li>
+            
+                <li><img src={gmaillogo} alt="gmaillogo" className="icon"/> tonitenneil@gmail.com</li>
+                <li><a href="https://github.com/thegiftedgirl" target="__blank" ><img src={githublogo} alt="githublogo" className="icon" />GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/tonitenneilhorne/" target="__blank" ><img src={linkedinlogo} alt="linkedinlogo" className="icon" />linkedin</a></li>
+                <li><a href="https://profiles.generalassemb.ly/profiles/tonitenneil" target="__blank" ><img src={galogo} alt="galogo" className="icon" />GA Profile</a></li>
                 </ul> 
-                </container> 
-            </BackgroundImage>
+    
+        </section>
+
         <Link to="/about">back to my bio</Link>
     </Layout>
     
     )
 }
 
-
+ 
 export const pageQuery = graphql`
     query {
-        indexImage: file(relativePath: { eq: "bk3.png"}) {
+        indexImage: file(relativePath: { eq: "aboutme.png"}) {
             childImageSharp {
-                fluid(maxWidth: 1900, quality: 100) {
+                fluid(maxWidth: 300, quality: 100) {
                     ...GatsbyImageSharpFluid
                 }
             } 

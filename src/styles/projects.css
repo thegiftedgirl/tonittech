@@ -1,0 +1,21 @@
+.projects{
+    
+    border-style: dotted;
+    border-radius: 30px;
+    max-width: 40%;
+}
+
+.projectcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+p {
+   margin-left: 2rem;
+}
+
+.projectthumbs {
+   flex-basis: 1000px;
+    
+}
