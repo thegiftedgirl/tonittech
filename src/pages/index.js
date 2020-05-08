@@ -15,7 +15,7 @@ export default (props) => {
                                
                   
             </BackgroundImage>
-            
+          
             <Link to="/contact">Contact</Link>
         </Layout>
 
