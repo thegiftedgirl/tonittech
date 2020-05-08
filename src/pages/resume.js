@@ -8,7 +8,7 @@ return (
 <section className={styles.resume}>
     <h1 className="restitle"> Professional Highlights</h1>
     <div className="borderres">
-    <iframe title="resume" width="80%" height="500" src="https://www.docdroid.net/YbJUAui/toni-horne-full-stack-resume-2-pdf" frameborder="90" allowtransparency allowfullscreen ></iframe>
+    <iframe title="resume" width="80%" height="500" src="https://www.docdroid.net/aBxhKqA/toni-tenneil-software-dev-pdf" frameborder="90" allowtransparency allowfullscreen ></iframe>
     </div>
     </section>
     </Layout>
