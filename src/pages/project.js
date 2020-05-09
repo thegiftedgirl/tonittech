@@ -49,7 +49,7 @@ return(
             
                </div>
                <div>
-              <a href="https://homeroom-teamtack.herokuapp.com/" target="__blank">visit Homeroom</a>
+              <a href="https://homeroom-teamtack.herokuapp.com/" target="__blank" className="plink">visit Homeroom</a>
               </div>
                </div>
             </div>
@@ -70,7 +70,7 @@ return(
 
                       
                       <div>
-                       <a href="https://foodzies-v1.herokuapp.com/" target="__blank">Visit Foodzies</a>
+                       <a href="https://foodzies-v1.herokuapp.com/" target="__blank" className="plink">Visit Foodzies</a>
                        </div>
                         </div>
                         </div>
@@ -93,7 +93,7 @@ return(
                               </h5>
                               </div>
                             <div>   
-                           <a href="https://weatherornot-app.herokuapp.com/" target="__blank">Visit Weather Or Not</a>
+                           <a href="https://weatherornot-app.herokuapp.com/" target="__blank" className="plink">Visit Weather Or Not</a>
                         </div> 
                       </div>  
                     </div>
@@ -113,7 +113,7 @@ return(
                   <h5>Technologies Used: NASA API, HTML, Javascript, Jquery, CSS </h5>
                 </div>  
                 <div>
-                <a href="https://github.com/thegiftedgirl/Over_The_Rainbow" target="__blank">Visit OTR on Github</a>
+                <a href="https://github.com/thegiftedgirl/Over_The_Rainbow" target="__blank" className="plink">Visit OTR on Github</a>
               </div>
             </div> 
             </div>

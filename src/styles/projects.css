@@ -29,7 +29,7 @@ p {
 
 
 .projectheader {
-    margin: 0px 0px 60px 350px;
+    margin: 0px 0px 60px 320px;
     font-size: 5rem;
 }
  .innercontainer {
@@ -60,5 +60,16 @@ p {
      color: pink;
      font-size: 40px;
      font-family: 'Josefin Sans', sans-serif;
+     margin-bottom: -0rem;
+     margin-top: 2rem;
+
+ }
+
+ .plink {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 900;
 
  }
