@@ -2,12 +2,12 @@ import React from 'react'
 
 import { Link } from 'gatsby'
 import styles from './header.module.scss'
-import dynamicdev2 from '../../images/dynamicdev2.png'
+import landing4 from '../../images/landing4.png'
 
 export default () => {
     return(
         <header className={styles.header}>
-            <div><img src={dynamicdev2} className="devlogo"/></div>
+            <div><img src={landing4} className="devlogo"/></div>
             <ul>
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/'>Home</Link>

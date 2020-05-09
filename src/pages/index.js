@@ -16,7 +16,7 @@ export default (props) => {
                   
             </BackgroundImage>
           
-            <Link to="/contact">Contact</Link>
+            
         </Layout>
 
 
@@ -26,7 +26,7 @@ export default (props) => {
 
 export const pageQuery = graphql`
     query {
-        indexImage: file(relativePath: { eq: "landing.png"}) {
+        indexImage: file(relativePath: { eq: "landing1.png"}) {
             childImageSharp {
                 fluid(maxWidth: 1900, quality: 100) {
                     ...GatsbyImageSharpFluid

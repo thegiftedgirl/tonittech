@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from '../components/Layout'
 
@@ -13,20 +14,19 @@ import  styles from '../css/contacts.css'
 export default (props) => {
 return (
     <Layout> 
-       <h1>Contact Me </h1>
-        <section className={styles.contacts}>       
-                
-                <ul>
-            
+           <BackgroundImage
+                className="masthead"
+                fluid={props.data.indexImage.childImageSharp.fluid}
+            >
+       <h3 className="contactheader"> Lets Connect </h3>
+                            
                 <li><img src={gmaillogo} alt="gmaillogo" className="icon"/> tonitenneil@gmail.com</li>
                 <li><a href="https://github.com/thegiftedgirl" target="__blank" ><img src={githublogo} alt="githublogo" className="icon" />GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/tonitenneilhorne/" target="__blank" ><img src={linkedinlogo} alt="linkedinlogo" className="icon" />linkedin</a></li>
                 <li><a href="https://profiles.generalassemb.ly/profiles/tonitenneil" target="__blank" ><img src={galogo} alt="galogo" className="icon" />GA Profile</a></li>
-                </ul> 
-    
-        </section>
-
-        <Link to="/about">back to my bio</Link>
+                
+       
+         </BackgroundImage>
     </Layout>
     
     )
@@ -35,9 +35,9 @@ return (
  
 export const pageQuery = graphql`
     query {
-        indexImage: file(relativePath: { eq: "aboutme.png"}) {
+        indexImage: file(relativePath: { eq: "contactprofile.png"}) {
             childImageSharp {
-                fluid(maxWidth: 300, quality: 100) {
+                fluid(maxWidth: 1500, quality: 100) {
                     ...GatsbyImageSharpFluid
                 }
             } 
