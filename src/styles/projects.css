@@ -4,7 +4,7 @@
     border-radius: 150px;
     max-width: 310px;
     border-width: 8px;
-    border-color: pink;
+    border-color: yellow;
     background-color: pink;
 }
 
@@ -57,7 +57,7 @@ p {
  }
 
  .projecttitle{
-     color: yellow;
+     color: pink;
      font-size: 40px;
      font-family: 'Josefin Sans', sans-serif;
 
