@@ -26,7 +26,7 @@ return(
             
             
               <div className="innercontainer">
-               <h2>HomeRoom</h2>
+               <h2 className="projecttitle">HomeRoom</h2>
                
                <div>
               <p>Homeroom was created to satistfy the mission to make education accessible 
@@ -38,7 +38,15 @@ return(
                 lesson plans from afar.
             
                </p>
-               <h5>Technologies Used</h5>
+               <h5>Technologies Used: Python,
+                    PostGreSQL,
+                    Heroku,
+                    AWS,
+                    Django,
+                    Materialize,
+                    HTML/CSS/JS
+                  </h5>
+            
                </div>
                <div>
               <a href="https://homeroom-teamtack.herokuapp.com/" target="__blank">visit Homeroom</a>
@@ -50,14 +58,16 @@ return(
                    <img src= {foodziess1} alt="projects" className="projects"/>
 
                    <div className="innercontainer">
-                     <h2> Foodzies</h2>
+                     <h2 className="projecttitle"> Foodzies</h2>
                      
                      <div>
                      <p>Foodzies is an app that gives food lovers the opportunity to share their love for food with 
                        people who share the same interests.
                       </p>  
-                       <h5>Technologies Used</h5>
-                      
+                       <h5>Technologies Used: Javascript, CSS, Materialize, HTML, Express, MongoDB Atlas, Heroku, Node, 0auth</h5>
+                       
+
+
                       
                       <div>
                        <a href="https://foodzies-v1.herokuapp.com/" target="__blank">Visit Foodzies</a>
@@ -72,13 +82,15 @@ return(
                             
                         
                             <div className="innercontainer">
-                              <h2> Weather or Not </h2>
+                              <h2 className="projecttitle"> Weather or Not </h2>
                               <p> Ever wake up in the morning with nothing to do, but the urge to seize the day? Well Weather Or Not is an app that not only tells you the local weather, it also suggests what to wear. An app using a weather api allowing users to check on the weather whilst simultaneously helping the user decide what may be appropriate 
                               to wear and what to do (eventbrite api) according to the their location and the daily weather expectations.
                           
                                 </p> 
                               <div>
-                              <h5>Technologies Used</h5>
+                              <h5>Technologies Used:
+                                  MongoDB/Mongoose, Express, Node JS, React JS
+                              </h5>
                               </div>
                             <div>   
                            <a href="https://weatherornot-app.herokuapp.com/" target="__blank">Visit Weather Or Not</a>
@@ -92,12 +104,13 @@ return(
 
                 <img src={ overtherainbow } alt="projects" className="projects"/>
                   <div>
-                    <h2> Over the Rainbow </h2>
+                    <h2 className="projecttitle"> Over the Rainbow </h2>
                      
                      <div classname="innercontainer">
                     <p> "Over The Rainbow" was made for the user that wants to explore other worldly desinations. API Powered by NASA
 
                   </p>
+                  <h5>Technologies Used: NASA API, HTML, Javascript, Jquery, CSS </h5>
                 </div>  
                 <div>
                 <a href="https://github.com/thegiftedgirl/Over_The_Rainbow" target="__blank">Visit OTR on Github</a>

@@ -4,7 +4,7 @@
     border-radius: 150px;
     max-width: 310px;
     border-width: 8px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 238, 0);
     background-color: pink;
 }
 
@@ -19,11 +19,12 @@
 }
 
 p {
-   margin-left: 0rem; 
+   margin-left: 1rem; 
    margin-top: 0rem;
    display:flex;
    justify-content: space-between;
-   font-family: Josefin;
+   font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
@@ -40,4 +41,24 @@ p {
 
  .techlist {
      margin-left: 10px;
+ }
+
+ h5 {
+     margin-left: 1rem;
+ }
+
+ a{
+     margin-left:1rem;
+ }
+ h2 {
+     margin-left: 1rem;
+     margin-top: 1rem;
+    
+ }
+
+ .projecttitle{
+     color: yellow;
+     font-size: 40px;
+     font-family: 'Josefin Sans', sans-serif;
+
  }
