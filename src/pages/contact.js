@@ -8,7 +8,7 @@ import githublogo from '../images/githublogo.png'
 import gmaillogo from '../images/gmaillogo.png'
 import linkedinlogo from '../images/linkedinlogo.png'
 import galogo from '../images/galogo.png'
-import  styles from '../css/contacts.css'
+import styles from '../css/contacts.css'
 
 
 export default (props) => {
@@ -18,7 +18,7 @@ return (
                 className="masthead"
                 fluid={props.data.indexImage.childImageSharp.fluid}
             >
-       <h3 className="contactheader"> Lets Connect </h3>
+       <h1 className="contactheader"> Lets Connect ! </h1>
                             
                 <li><img src={gmaillogo} alt="gmaillogo" className="icon"/> tonitenneil@gmail.com</li>
                 <li><a href="https://github.com/thegiftedgirl" target="__blank" ><img src={githublogo} alt="githublogo" className="icon" />GitHub</a></li>

@@ -5,12 +5,13 @@ import styles from '../css/resume.css'
 export default (props) => {
 return (
     <Layout>
-<section className={styles.resume}>
+
     <h1 className="restitle"> Professional Highlights</h1>
+    <div className="dots">
     <div className="borderres">
-    <iframe title="resume" width="80%" height="500" src="https://www.docdroid.net/aBxhKqA/toni-tenneil-software-dev-pdf" frameborder="90" allowtransparency allowfullscreen ></iframe>
+    <iframe title="resume" width="100%" height="500" src="https://www.docdroid.net/aBxhKqA/toni-tenneil-software-dev-pdf" frameborder="0" allowtransparency allowfullscreen ></iframe>
     </div>
-    </section>
+    </div>
     </Layout>
     )
 }

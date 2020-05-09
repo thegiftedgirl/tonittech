@@ -1,21 +1,43 @@
 .projects{
     
     border-style: dotted;
-    border-radius: 30px;
-    max-width: 40%;
+    border-radius: 150px;
+    max-width: 310px;
+    border-width: 8px;
+    border-color: rgb(0, 0, 0);
+    background-color: pink;
 }
 
 .projectcontainer {
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+    flex: 1 1 180px;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 p {
-   margin-left: 2rem;
+   margin-left: 0rem; 
+   margin-top: 0rem;
+   display:flex;
+   justify-content: space-between;
+   font-family: Josefin;
 }
 
-.projectthumbs {
-   flex-basis: 1000px;
-    
+
+.projectheader {
+    margin: 0px 0px 60px 350px;
+    font-size: 5rem;
 }
+ .innercontainer {
+     display:flex;
+     
+     flex-direction: column;
+
+ }
+
+ .techlist {
+     margin-left: 10px;
+ }

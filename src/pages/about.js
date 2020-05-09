@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 
 import BackgroundImage from 'gatsby-background-image'
-
+import styles from '../css/about.css'
 
 import Layout from '../components/Layout'
 
@@ -18,7 +18,7 @@ export default (props) => {
             </BackgroundImage>
             <p>I live at the fusion of fine art and technology. As an art teacher by day I have the opportunity of broadening young minds through multiple artistic forms. I would like to expand upon my creative capabilities through technology by developing software for artists and educators alike. Preferably working in an environment where big ideas are nurtured and innovation is consistently encouraged. </p>
             
-            <h2>Skills</h2>
+            <h1 className="skillsheader">Skills</h1>
         <p>
         Python
         Django
@@ -33,7 +33,7 @@ export default (props) => {
         MongoDB
         GitHub
         </p>
-            <Link to="/contact">Contact</Link>
+         
         </Layout>
 
 

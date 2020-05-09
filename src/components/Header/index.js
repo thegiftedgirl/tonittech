@@ -2,12 +2,12 @@ import React from 'react'
 
 import { Link } from 'gatsby'
 import styles from './header.module.scss'
-import landing4 from '../../images/landing4.png'
+import largelanding from '../../images/largelanding.png'
 
 export default () => {
     return(
         <header className={styles.header}>
-            <div><img src={landing4} className="devlogo"/></div>
+            <div><img src={largelanding} className="devlogo"/></div>
             <ul>
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/'>Home</Link>
@@ -15,15 +15,14 @@ export default () => {
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/about'>About </Link>
                 </li>
-                <li>
-                    <Link activeClassName={styles.navItemActive} to='/contact'>Contact</Link>
-                </li>
-
-                <li>
+                 <li>
                     <Link activeClassName={styles.navItemActive} to='/resume'>Resume</Link>
                 </li>
-                <li>
+                  <li>
                     <Link activeClassName={styles.navItemActive} to='project'>Projects</Link>
+                </li>  
+                <li>
+                    <Link activeClassName={styles.navItemActive} to='/contact'>Contact</Link>
                 </li>     
             </ul>
         </header>
