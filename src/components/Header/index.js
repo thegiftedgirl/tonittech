@@ -7,7 +7,7 @@ import largelanding from '../../images/largelanding.png'
 export default () => {
     return(
         <header className={styles.header}>
-            <div><img src={largelanding} className="devlogo"/></div>
+            <div></div>
             <ul>
                 <li>
                     <Link activeClassName={styles.navItemActive} to='/'>Home</Link>

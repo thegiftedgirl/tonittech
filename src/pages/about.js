@@ -16,8 +16,9 @@ export default (props) => {
                                
                   
             </BackgroundImage>
-            <p>I live at the fusion of fine art and technology. As an art teacher by day I have the opportunity of broadening young minds through multiple artistic forms. I would like to expand upon my creative capabilities through technology by developing software for artists and educators alike. Preferably working in an environment where big ideas are nurtured and innovation is consistently encouraged. </p>
-            
+            <div>
+            <p>I am a software engineer who can help bring your artistic vision to life. I live at the fusion of fine art, fashion and technology which lends me the ability to effectively blend functionality with flair. With my abundance of ideas and a repository of talents, I can educate brands on how to look fine online.  </p>
+            </div>
             <h1 className="skillsheader">Skills</h1>
         <p>
         Python

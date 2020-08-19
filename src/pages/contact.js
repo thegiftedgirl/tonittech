@@ -1,5 +1,8 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import {
+    Link,
+    graphql
+} from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 
 import Layout from '../components/Layout'
@@ -12,28 +15,46 @@ import styles from '../css/contacts.css'
 
 
 export default (props) => {
-return (
-    <Layout> 
-           <BackgroundImage
-                className="masthead"
-                fluid={props.data.indexImage.childImageSharp.fluid}
-            >
-       <h1 className="contactheader"> Lets Connect ! </h1>
-                            
-                <li><img src={gmaillogo} alt="gmaillogo" className="icon"/> tonitenneil@gmail.com</li>
-                <li><a href="https://github.com/thegiftedgirl" target="__blank" ><img src={githublogo} alt="githublogo" className="icon" />GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/tonitenneilhorne/" target="__blank" ><img src={linkedinlogo} alt="linkedinlogo" className="icon" />linkedin</a></li>
-                <li><a href="https://profiles.generalassemb.ly/profiles/tonitenneil" target="__blank" ><img src={galogo} alt="galogo" className="icon" />GA Profile</a></li>
-                
-       
-         </BackgroundImage>
-    </Layout>
-    
+    return ( <
+        Layout >
+        <
+        BackgroundImage className = "masthead"
+        fluid = {
+            props.data.indexImage.childImageSharp.fluid
+        } >
+        <
+        h1 className = "contactheader" > Lets Connect! < /h1>
+
+        <
+        li > < img src = {
+            gmaillogo
+        }
+        alt = "gmaillogo"
+        className = "icon" / > tonitenneil @gmail.com < /li> <
+        li > < a href = "https://github.com/thegiftedgirl"
+        target = "__blank" > < img src = {
+            githublogo
+        }
+        alt = "githublogo"
+        className = "icon" / > GitHub < /a></li >
+        <
+        li > < a href = "https://www.linkedin.com/in/tonitenneilhorne/"
+        target = "__blank" > < img src = {
+            linkedinlogo
+        }
+        alt = "linkedinlogo"
+        className = "icon" / > linkedin < /a></li >
+
+
+        <
+        /BackgroundImage> <
+        /Layout>
+
     )
 }
 
- 
-export const pageQuery = graphql`
+
+export const pageQuery = graphql `
     query {
         indexImage: file(relativePath: { eq: "contactprofile.png"}) {
             childImageSharp {
